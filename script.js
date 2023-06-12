@@ -1,4 +1,9 @@
 var form = document.getElementById("postForm");
+var i = document.querySelectorAll("input");
+i.forEach((j) => {
+  j.style.padding = "5px";
+  j.style.display = "block";
+});
 form.addEventListener("submit", function (e) {
   e.preventDefault();
   let name = document.getElementById("name").value;
