@@ -6,6 +6,7 @@ form.addEventListener("submit", function (e) {
     let text = document.getElementById("text").value;
     let text_error = document.getElementById("text_error");
     let name_error = document.getElementById("name_error");
+
     if (name == "") {
       name_error.innerHTML = "Name is required";
       name_error.style.color = "red";
