@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fetch Post API</title>
+    <style>
+      input {
+        display: block;
+      }
+
+      p {
+        margin-top: 0;
+      }
+      p#test {
+        margin-top: 30px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <form id="postForm" method="post">
+      <label for="title">Name</label>
+      <input type="text" name="name" id="name" />
+      <p id="name_error"></p>
+      <label for="body">Text</label>
+      <input type="text" name="text" id="text" />
+      <p id="text_error"></p>
+      <input type="submit" value="Submit" />
+    </form>
+    <p id="test"></p>
+    <script src="script.js"></script>
+  </body>
+</html>
